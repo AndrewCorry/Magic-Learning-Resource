@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <nav>
+        <h4 class="crumbH"><a href="./home.html">Home</a></h4>
+        <h4 class="crumbH"><a href="./rulesindex.html">Basic Rules</a></h4>
+        <h4 class="crumbH"><a href="./login.html">Login</a></h4>
+        <h4 class="crumbH"><a href="./register.html">Register</a></h4>
+        <h4 class="crumbH"><a href="./user.html">Search</a></h4>
+    </nav>
+    <section id="search-container"></section>
+    <header><h1>Search for a User</h1></header>
+    <form id="user-form">
+        <input type="text" id="username-search" placeholder="Username">
+        
+        <button id="search">Search</button>
+        <button id="all-users">Get all Profiles</button>
+    </form>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="user.js"></script>
+</body>
+</html>

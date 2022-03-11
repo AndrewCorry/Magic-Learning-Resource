@@ -1,0 +1,1 @@
+const register = document.querySelector('#register-form')
